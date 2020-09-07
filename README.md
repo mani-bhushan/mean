@@ -1,2 +1,2 @@
-# mean
+# MEAN
 Node Interview
