@@ -1,14 +1,18 @@
-create root folder
-open git bash in the root folder
+Create root folder
+Open git bash in the root folder
+
 $ git init
 $ git config --global user.name "Your name here"
 $ git config --global user.email "your_email@example.com"
 $ git remote add origin URL
 $ git pull origin master
 
-create any text document abc.txt inside root folder
+Create any text document abc.txt inside root folder
 $ mv abc.txt .gitignore
+Open .gitignore file with notepad editor and write : node-modules/
+save and close the file
 
+copy your files you want to commit or do some changes of your requirement then :
 $ git add .
 $ git commit -m "first commit"
 $ git push -u origin master
