@@ -1,0 +1,17 @@
+create root folder
+open git bash in the root folder
+$ git init
+$ git config --global user.name "Your name here"
+$ git config --global user.email "your_email@example.com"
+$ git remote add origin URL
+$ git pull origin master
+
+create any text document abc.txt inside root folder
+$ mv abc.txt .gitignore
+
+$ git add .
+$ git commit -m "first commit"
+$ git push -u origin master
+
+To reset local commit (It will remove uncommited changes and merge with the origin provided ) be careful.
+$ git reset --hard origin/master or $ git reset --hard 
